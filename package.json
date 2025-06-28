@@ -1,0 +1,32 @@
+{
+  "name": "@c6fc/spellcraft-aws-s3",
+  "version": "1.0.0",
+  "main": "module.js",
+  "scripts": {
+    "cli": "utils/cli-test.js",
+    "test": "node utils/test.js",
+    "doc": "jsdoc -c utils/jsdoc.json --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/you/@c6fc/spellcraft-aws-s3.git"
+  },
+  "config": {
+    "spellcraft_module_default_name": "s3"
+  },
+  "author": "Brad Woodward <brad@bradwoodward.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/you/@c6fc/spellcraft-aws-s3/issues"
+  },
+  "homepage": "https://github.com/you/@c6fc/spellcraft-aws-s3#readme",
+  "description": "A plugin to add functionality via @c6fc/spellcraft",
+  "devDependencies": {
+    "clean-jsdoc-theme": "^4.3.0",
+    "jsdoc": "^4.0.4"
+  },
+  "dependencies": {
+    "@c6fc/spellcraft": "^0.0.5",
+    "@c6fc/spellcraft-aws-auth": "^1.0.7"
+  }
+}
